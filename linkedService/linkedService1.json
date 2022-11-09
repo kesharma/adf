@@ -1,0 +1,10 @@
+{
+	"name": "linkedService1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://kesh.dfs.core.windows.net/"
+		}
+	}
+}
