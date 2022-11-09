@@ -37,7 +37,7 @@
 				"     columnNamesAsHeader: false) ~> source1",
 				"source1 call(mapColumn(",
 				"          each(match(\"abc\"),",
-				"               ERROR_FUNCTION('\"xyz') = $$)",
+				"               \"xyz\" = $$)",
 				"     ),",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true,",
